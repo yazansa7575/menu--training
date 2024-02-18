@@ -1,0 +1,53 @@
+*{font-family: 'Tajawal', sans-serif;font-size: 16px;}
+body{background-color: #d4d3d373;}
+
+.logoImageFather{
+    width: 4%;
+    
+}
+.logoImage{
+    width: 500%;
+    padding: 0%;
+
+}
+.headerTitle{
+    text-align: center;
+    margin-top: 2%;
+}
+.headerTitle span{
+    font-size:2rem;
+    font-weight: 500;
+    padding: 8px;
+    border-bottom: 3px solid #198754;
+}
+.MyBtn{
+    transition: all .5s cubic-bezier(0.215, 0.610, 0.355, 1) !important;
+    margin-top:2% ;
+}
+.MyBtn:hover{
+    padding:0 20px;
+    font-weight: 600;
+}
+.MyCard{
+    transition: all .1s ease-in;
+    cursor: pointer;
+    overflow: hidden;
+    height: max-content;
+}
+
+.MyCard:hover{
+    background-color: white !important;
+}
+.imagCardFather{
+    overflow: hidden;
+
+}
+.imagCard{
+    transition: all .8s cubic-bezier(0.215, 0.610, 0.355, 1)
+
+}
+.MyCard:hover .imagCard{
+    transform: scale(1.2);
+    filter: contrast(1.2);
+
+}
